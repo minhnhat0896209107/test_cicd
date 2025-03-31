@@ -7,5 +7,5 @@ A new Flutter project.
 # Build command
 - Build debug
 ``` bash
-flutter build apk --release --build-name=1.0.0 --build-number=1
+flutter build apk --debug --build-name=1.0.0 --build-number=1
 ```
