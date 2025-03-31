@@ -1,0 +1,9 @@
+name: FLUTTER _ Android Build Dev
+
+on:
+  push:
+    branches:
+      - dev
+  pull_request:
+    branches:
+      - dev
