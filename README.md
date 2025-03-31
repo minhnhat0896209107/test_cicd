@@ -5,7 +5,12 @@ A new Flutter project.
 ## Getting Started
 
 # Build command
-- Build debug
-``` bash
+- Build Android debug
+```bash
 flutter build apk --debug --build-name=1.0.0 --build-number=1
+```
+
+- Build iOS debug
+```bash
+flutter build ios --debug --build-name=1.0.0 --build-number=1 --no-codesign
 ```
