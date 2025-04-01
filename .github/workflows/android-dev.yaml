@@ -46,4 +46,4 @@ jobs:
         run: flutter test 
 
       - name: Build APK
-        run: flutter build apk --debug --build-name=1.0.1 --build-number=2
+        run: flutter build apk --debug --build-name=1.0.0 --build-number=1
