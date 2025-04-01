@@ -14,3 +14,6 @@ flutter build apk --debug --build-name=1.0.0 --build-number=1
 ```bash
 flutter build ios --debug --build-name=1.0.0 --build-number=1 --no-codesign
 ```
+
+# check update data patch
+adb logcat | grep flutter
