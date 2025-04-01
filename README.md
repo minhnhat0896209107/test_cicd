@@ -17,3 +17,7 @@ flutter build ios --debug --build-name=1.0.0 --build-number=1 --no-codesign
 
 # check update data patch
 adb logcat | grep flutter
+
+# deploy version
+shorebird release android --verbose
+shorebird release ios --verbose
