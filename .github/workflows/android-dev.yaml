@@ -3,10 +3,10 @@ name: FLUTTER _ Android Build Dev
 on:
   push:
     branches:
-      - nhat_dev
+      - main-1
   pull_request:
     branches:
-      - nhat_dev
+      - main-1
 
 jobs:
   build:
